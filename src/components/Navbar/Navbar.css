@@ -1,0 +1,18 @@
+/* .navbar-toggler {
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: 10px;
+} */
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.nav-link {
+    padding: 12px 30px;
+}
+
+.navbar-collapse {
+    margin-top: 10px;
+}
