@@ -1,0 +1,9 @@
+.home-header {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .home-header {
+        display: flex;
+    }
+}

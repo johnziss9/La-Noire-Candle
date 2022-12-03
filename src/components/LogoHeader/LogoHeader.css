@@ -1,5 +1,20 @@
 .logo-header-container {
     width: 100%;
-    border: 1px solid red;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    width: 300px;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .logo-header-container {
+        justify-content: start;
+    }
 }

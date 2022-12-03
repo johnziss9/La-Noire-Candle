@@ -1,8 +1,7 @@
-/* .navbar-toggler {
-    border: 1px solid red;
-    margin-left: auto;
+.navbar-toggler {
+    border: none !important;
     margin-right: 10px;
-} */
+}
 
 .navbar-toggler:focus {
     outline: none !important;
@@ -16,3 +15,9 @@
 .navbar-collapse {
     margin-top: 10px;
 }
+
+/* @media (max-width: 767px) {
+    .navbar-toggler {
+        width: 500px;
+    }
+} */
