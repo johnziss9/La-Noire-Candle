@@ -5,23 +5,29 @@ function Navbar() {
 
     return (
         <>
-            <nav class="navbar navbar-expand-md">
-                <button class="navbar-toggler float-xs-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-md">
+                <button className="navbar-toggler float-xs-right collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="toggler-icon top-bar"></span>
+                    <span className="toggler-icon middle-bar"></span>
+                    <span className="toggler-icon bottom-bar"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Products</a>
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul className="navbar-nav mx-auto">
+                        <li className="nav-item active">
+                            {/* eslint-disable-next-line */}
+                            <a className="nav-link" href="#">Products</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                        <li className="nav-item">
+                            {/* eslint-disable-next-line */}
+                            <a className="nav-link" href="#">About Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Candle Care</a>
+                        <li className="nav-item">
+                            {/* eslint-disable-next-line */}
+                            <a className="nav-link" href="#">Candle Care</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                        <li className="nav-item">
+                            {/* eslint-disable-next-line */}
+                            <a className="nav-link" href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
