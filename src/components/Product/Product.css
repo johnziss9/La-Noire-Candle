@@ -11,11 +11,24 @@
     background: grey;
 }
 
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+
 .product-text-panel {
     width: 500px;
     height: 500px;
     background: black;
     color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 30px;
+}
+
+.product-text {
+    text-align: center;
 }
 
 @media (max-width: 1000px) {
