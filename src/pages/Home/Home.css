@@ -16,11 +16,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 60px;
+    /* margin: 40px 0 30px 0; */
 }
 
-.home-product-title {
+.home-products-title {
     font-size: 40px;
+}
+
+.home-about-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media (max-width: 767px) {
