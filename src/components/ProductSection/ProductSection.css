@@ -1,0 +1,10 @@
+.product-section-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-section-title {
+    font-size: 40px;
+}
