@@ -1,11 +1,14 @@
 .product-container {
     width: 1000px;
-    margin: 40px 0;
+    margin: 30px 0;
+}
+
+.product-section-container {
     display: flex;
     flex-direction: row;
 }
 
-.product-image-panel {
+.product-image-container {
     width: 500px;
     height: 500px;
     background: grey;
@@ -16,7 +19,7 @@
     height: 100%;
 }
 
-.product-text-panel {
+.product-text-container {
     width: 500px;
     height: 500px;
     background: black;
