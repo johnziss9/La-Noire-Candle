@@ -25,6 +25,20 @@
     flex-direction: column;
 }
 
+.home-candle-care-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-footer-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 @media (max-width: 767px) {
     .home-header {
         display: flex;

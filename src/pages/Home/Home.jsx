@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
 import About from '../../components/About/About';
 import ProductSection from '../../components/ProductSection/ProductSection';
+import CandleCare from '../../components/CandleCare/CandleCare';
+import Footer from '../../components/Footer/Footer';
 import "./Home.css";
 import BannerImg from "../../images/banner.png";
 
@@ -20,6 +22,12 @@ function Home() {
       </div>
       <div className="home-about-container">
         <About />
+      </div>
+      <div className="home-candle-care-container">
+        <CandleCare />
+      </div>
+      <div className="home-footer-container">
+        <Footer />
       </div>
     </div>
   );
