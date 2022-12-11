@@ -3,8 +3,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 30px 0 60px 0;
 }
 
 .product-section-title {
     font-size: 40px;
+    margin-bottom: 30px;
 }

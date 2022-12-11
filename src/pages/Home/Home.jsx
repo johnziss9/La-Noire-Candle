@@ -17,18 +17,10 @@ function Home() {
         <Navbar />
       </div>
       <Banner src={BannerImg} alt="Banner Image" />
-      <div className="home-products-container">
-        <ProductSection />
-      </div>
-      <div className="home-about-container">
-        <About />
-      </div>
-      <div className="home-candle-care-container">
-        <CandleCare />
-      </div>
-      <div className="home-footer-container">
-        <Footer />
-      </div>
+      <ProductSection />
+      <About />
+      <CandleCare />
+      <Footer />
     </div>
   );
 }
