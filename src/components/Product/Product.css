@@ -11,7 +11,6 @@
 .product-image-container {
     width: 500px;
     height: 500px;
-    background: grey;
 }
 
 .product-image {
@@ -34,9 +33,36 @@
     text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
     .product-container {
         width: 500px;
         flex-direction: column;
+    }
+
+    .product-image-container {
+        width: 500px;
+        height: 500px;
+    }
+
+    .product-text-container {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .product-container {
+        width: 350px;
+        flex-direction: column;
+    }
+
+    .product-image-container {
+        width: 350px;
+        height: 350px;
+    }
+
+    .product-text-container {
+        width: 350px;
+        height: 350px;
     }
 }
