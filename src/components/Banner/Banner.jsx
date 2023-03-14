@@ -6,7 +6,7 @@ function Banner() {
     return (
         <div className='banner-container'>
             <div className='banner-image-panel'>
-                <img className="banner-image" src={BannerImg} alt="Banner Image" />
+                <img className="banner-image" src={BannerImg} alt="Banner" />
             </div>
         </div>
     );
