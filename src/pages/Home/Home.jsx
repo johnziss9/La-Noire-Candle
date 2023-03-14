@@ -7,7 +7,6 @@ import ProductSection from '../../components/ProductSection/ProductSection';
 import CandleCare from '../../components/CandleCare/CandleCare';
 import Footer from '../../components/Footer/Footer';
 import "./Home.css";
-import BannerImg from "../../images/banner.png";
 
 function Home() {
   return (
@@ -16,7 +15,7 @@ function Home() {
         <LogoHeader />
         <Navbar />
       </div>
-      <Banner src={BannerImg} alt="Banner Image" />
+      <Banner />
       <ProductSection />
       <About />
       <CandleCare />
