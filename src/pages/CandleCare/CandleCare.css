@@ -1,6 +1,11 @@
+.candle-care-header {
+    border-bottom: 2px solid #000;
+}
+
 .candle-care-container {
     width: 100%;
     padding: 30px 0 60px 0;
+    background-color: burlywood;
 }
 
 .candle-care-title {

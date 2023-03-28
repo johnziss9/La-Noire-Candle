@@ -4,7 +4,6 @@ import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
 import About from '../../components/About/About';
 import ProductSection from '../../components/ProductSection/ProductSection';
-import CandleCare from '../../components/CandleCare/CandleCare';
 import Footer from '../../components/Footer/Footer';
 import "./Home.css";
 
@@ -18,7 +17,6 @@ function Home() {
       <Banner />
       <ProductSection />
       <About />
-      <CandleCare />
       <Footer />
     </div>
   );

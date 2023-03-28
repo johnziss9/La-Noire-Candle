@@ -23,7 +23,7 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             {/* eslint-disable-next-line */}
-                            <a className="nav-link" href="#">Candle Care</a>
+                            <a className="nav-link" href="/CandleCare">Candle Care</a>
                         </li>
                         <li className="nav-item">
                             {/* eslint-disable-next-line */}
