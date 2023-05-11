@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar/Navbar';
 function CandleCare() {
     return (
         <>
-            <div className="candle-care-header">
+            <div>
                 <LogoHeader />
                 <Navbar />
             </div>
