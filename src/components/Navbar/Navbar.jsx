@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Navbar.css";
+import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar(props) {
 
     return (
         <>
@@ -15,19 +16,19 @@ function Navbar() {
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item active">
                             {/* eslint-disable-next-line */}
-                            <a className="nav-link" href="#">Products</a>
+                            <Link className="nav-link" onClick={() => props.productsRef.current.scrollIntoView({ behavior: 'smooth' })}>Products</Link>
                         </li>
                         <li className="nav-item">
                             {/* eslint-disable-next-line */}
-                            <a className="nav-link" href="#">About Us</a>
+                            <Link className="nav-link" onClick={() => props.aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>About Us</Link>
                         </li>
                         <li className="nav-item">
                             {/* eslint-disable-next-line */}
-                            <a className="nav-link" href="/CandleCare">Candle Care</a>
+                            <Link className="nav-link" to="/CandleCare">Candle Care</Link>
                         </li>
                         <li className="nav-item">
                             {/* eslint-disable-next-line */}
-                            <a className="nav-link" href="#">Contact Us</a>
+                            <Link className="nav-link" href="#">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

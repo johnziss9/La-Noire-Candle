@@ -4,13 +4,14 @@ import LogoHeader from '../../components/LogoHeader/LogoHeader';
 import Navbar from '../../components/Navbar/Navbar';
 import Item from '../../components/Item/Item';
 
-function Products() {
+function Products(props) {
     return (
         <div className='products-container'>
             <div>
                 <LogoHeader />
                 <Navbar />
             </div>
+            <div>{props.productsText}</div>
             <div className='items-container'>
                 <Item />
                 <Item />

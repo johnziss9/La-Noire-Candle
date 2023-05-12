@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import LogoHeader from '../../components/LogoHeader/LogoHeader';
 import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
@@ -8,15 +8,18 @@ import Footer from '../../components/Footer/Footer';
 import "./Home.css";
 
 function Home() {
+  const productsRef = useRef(null);
+  const aboutRef = useRef(null);
+
   return (
     <div className='home-container'>
       <div className="home-header">
         <LogoHeader />
-        <Navbar />
+        <Navbar aboutRef={aboutRef} productsRef={productsRef} />
       </div>
       <Banner />
-      <ProductSection />
-      <About />
+      <ProductSection ref={productsRef} />
+      <About ref={aboutRef} />
       <Footer />
     </div>
   );

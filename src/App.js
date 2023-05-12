@@ -8,7 +8,9 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/CandleCare" element={<CandleCare />} />
-      <Route path="/Products" element={<Products />} />
+      <Route path="/Candles" element={<Products productsText={'HELLO, THIS IS WHERE THE CANDLES ARE'} />} />
+      <Route path="/Diffusers" element={<Products productsText={'HELLO, THIS IS WHERE THE DIFFUSERS ARE'} />} />
+      <Route path="/AirFresheners" element={<Products productsText={'HELLO, THIS IS WHERE THE AIR FRESHENERS ARE'} />} />
     </Routes>
   );
 }
