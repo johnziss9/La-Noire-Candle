@@ -11,16 +11,12 @@
     margin-bottom: 30px;
 }
 
-.candles-link {
+.product-section-items-container {
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
-    margin-bottom: 80px;
 }
 
-.diffusers-link {
-    text-decoration: none;
-    margin-bottom: 80px;
-}
-
-.air-fresheners-link {
+.product-section-items-container a {
     text-decoration: none;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './CandleCare.css';
+import '../../styles.css'
 import LogoHeader from '../../components/LogoHeader/LogoHeader';
 import Navbar from '../../components/Navbar/Navbar';
 
@@ -11,9 +12,9 @@ function CandleCare() {
                 <Navbar />
             </div>
             <div className='candle-care-container'>
-                <div className='candle-care-title'>Candle Care</div>
+                <div className='sub-page-title'>Candle Care</div>
                 <div className='candle-care-text-container'>
-                    <div className='candle-care-text'>
+                    <div className='sub-page-text'>
                         <p>LaNoire Candle uses natural soy wax in their candles, which has a unique characteristic known as "memory". This means that the wax will retain the shape of the first burn, which is why it's important to burn the candle to the edge of the glass during the first burn. By doing so, you will prevent the candle from "tunnelling", which is when the wax burns down the center of the candle and leaves a layer of wax around the edges.</p>
 
                         <p>By burning your LaNoire Candle to the edge of the glass each time you light it, you will promote an even burn and extend the life of your candle. This is because an even burn ensures that the wax pool doesn't become too deep, which can cause the candle to burn too quickly and waste the wax.</p>

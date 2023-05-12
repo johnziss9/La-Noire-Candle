@@ -6,20 +6,25 @@ import Item from '../../components/Item/Item';
 
 function Products(props) {
     return (
-        <div className='products-container'>
+        <>
             <div>
                 <LogoHeader />
                 <Navbar />
             </div>
-            <div>{props.productsText}</div>
-            <div className='items-container'>
-                <Item />
-                <Item />
-                <Item />
-                <Item />
-                <Item />
+            <div div className='products-container'>
+                <div className='sub-page-title'>{props.productsTitle}</div>
+                <div className='items-text-container'>
+                    <div className='sub-page-text'>{props.productsText}</div>
+                </div>
+                <div className='items-container'>
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 
