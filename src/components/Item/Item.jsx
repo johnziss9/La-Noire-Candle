@@ -6,7 +6,7 @@ function Products() {
     return (
         <div className='item-container'>
             <div className='item-img-container'>
-                <img src={DemoImg} className='item-img' />
+                <img src={DemoImg} className='item-img' alt='item' />
             </div>
             <div className='item-text-container'>
                 <text>Black Orchid</text>
