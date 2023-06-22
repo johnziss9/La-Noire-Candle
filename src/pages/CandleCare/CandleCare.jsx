@@ -23,7 +23,7 @@ function CandleCare() {
                         <p>It's also important to remember to trim the wick of your candle before each use. This helps to prevent the mushroom effect, where the wick forms a small blackened mushroom-like shape at the tip, which can cause the flame to become too large and create soot. By trimming the wick, you can ensure a cleaner and longer burn for your LaNoire Candle.</p>
                     </div>
                     <div className='candle-care-img-container'>
-                        <img className="candle-care-img" src={CandleCareImg} alt="candle-care-image" />
+                        <img className="candle-care-img" src={CandleCareImg} alt="candle-care" />
                     </div>
                 </div>
             </div>
