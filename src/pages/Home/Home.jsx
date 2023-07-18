@@ -8,18 +8,16 @@ import Footer from '../../components/Footer/Footer';
 import "./Home.css";
 
 function Home() {
-  const productsRef = useRef(null);
-  const aboutRef = useRef(null);
 
   return (
     <div className='home-container'>
       <div className="home-header">
         <LogoHeader />
-        <Navbar aboutRef={aboutRef} productsRef={productsRef} />
+        <Navbar />
       </div>
       <Banner />
-      <ProductSection ref={productsRef} />
-      <About ref={aboutRef} />
+      <ProductSection />
+      <About />
       <Footer />
     </div>
   );

@@ -6,14 +6,10 @@ import AirFreshnerImg from "../../images/airfreshner.png";
 import DefuserImg from "../../images/defuser.png";
 import { Link } from 'react-router-dom';
 
-// This component is not a React.forwardRef component 
-// so it doesn't know what to do with the ref prop
-// which is why to pass the ref correctly to the div element, 
-// we need to use the second argument of the function component.
-function ProductSection(props, ref) {
+function ProductSection() {
     return (
-        <div className='product-section-container' ref={ref}>
-            <div className='homepage-title'>View our beautiful products...</div>
+        <div className='product-section-container'>
+            {/* <div className='homepage-title'>View our beautiful products...</div> */}
             <div className='product-section-items-container'>
                 <Link className='candles-link' to='/Candles'>
                     <Product reverse={false} src={CandleImg} alt="Candle Image" imgTitle="CANDLES" text="For our candles we have chosen to use natural soy wax as the main ingredient. This sustainable alternative to traditional paraffin wax is a renewable resource that burns cleaner and longer, producing less soot and providing a more environmentally friendly option for our customers. We have a great selection of scents to pick from including Vanilla, Rose & Patchouli, Jasmine, Cashmere, Black Vanilla, Black Orchid, Black Coconut and Baby Powder." />
@@ -29,4 +25,4 @@ function ProductSection(props, ref) {
     );
 }
 
-export default React.forwardRef(ProductSection);
+export default ProductSection;

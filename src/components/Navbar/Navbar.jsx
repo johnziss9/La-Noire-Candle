@@ -16,11 +16,7 @@ function Navbar(props) {
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item active">
                             {/* eslint-disable-next-line */}
-                            <Link className="nav-link" onClick={() => props.productsRef.current.scrollIntoView({ behavior: 'smooth' })}>Products</Link>
-                        </li>
-                        <li className="nav-item">
-                            {/* eslint-disable-next-line */}
-                            <Link className="nav-link" onClick={() => props.aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>About Us</Link>
+                            <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
                             {/* eslint-disable-next-line */}

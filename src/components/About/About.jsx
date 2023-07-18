@@ -2,14 +2,10 @@ import React from 'react';
 import './About.css';
 import BannerImg from "../../images/candle.png";
 
-// This component is not a React.forwardRef component 
-// so it doesn't know what to do with the ref prop
-// which is why to pass the ref correctly to the div element, 
-// we need to use the second argument of the function component.
-function About(props, ref) {
+function About() {
     return (
-        <div className='about-container' ref={ref}>
-            <div className='homepage-title'>A little bit about ourselves...</div>
+        <div className='about-container'>
+            {/* <div className='homepage-title'>A little bit about ourselves...</div> */}
             <div className='about-content'>
                 <div className='about-text'>
                     <p>LaNoire Candle is a luxury home fragrance brand based in Cyprus, committed to crafting high-quality, hand-poured candles made using natural soy wax. Our emphasis is on creating products that are luxurious and eco-friendly, made with only the finest ingredients and materials in a clean and serene environment. We take great care in the creation of each candle to ensure that every product we produce is of the highest quality.</p>
@@ -29,4 +25,4 @@ function About(props, ref) {
     );
 }
 
-export default React.forwardRef(About);
+export default About;
