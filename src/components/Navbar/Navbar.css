@@ -59,7 +59,34 @@
     transform: rotate(0);
 }
 
+/* Removing arrow buttons for number input */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.contact-form-control-group {
+    margin: 15px 0;
+}
+
 /* Toggler Animation End */
+
+.modal-button-group {
+    display: flex;
+    justify-content: end;
+}
+
+.modal-button {
+    margin: 10px 5px;
+}
 
 @media (max-width: 767px) {
     .navbar-collapse {
