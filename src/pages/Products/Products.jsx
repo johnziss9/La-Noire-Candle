@@ -12,7 +12,6 @@ function Products(props) {
                 <Navbar />
             </div>
             <div div className='products-container'>
-                <div className='sub-page-title'>{props.productsTitle}</div>
                 <div className='items-text-container'>
                     <div className='sub-page-text'>{props.productsText}</div>
                 </div>
