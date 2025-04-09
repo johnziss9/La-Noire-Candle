@@ -1,11 +1,12 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import LogoHeader from '../../components/LogoHeader/LogoHeader';
 import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
-import About from '../../components/About/About';
+import AboutSection from '../../components/AboutSection/AboutSection';
 import ProductSection from '../../components/ProductSection/ProductSection';
 import Footer from '../../components/Footer/Footer';
 import "./Home.css";
+import Aspects from '../../components/Aspects/Aspects';
 
 function Home() {
 
@@ -17,7 +18,8 @@ function Home() {
       </div>
       <Banner />
       <ProductSection />
-      <About />
+      <AboutSection />
+      <Aspects />
       <Footer />
     </div>
   );

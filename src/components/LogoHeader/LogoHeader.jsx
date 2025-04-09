@@ -1,6 +1,6 @@
 import React from 'react';
 import './LogoHeader.css';
-import logo from "../../images/logo.png"
+import logo from "../../images/logo_white.png"
 
 function LogoHeader() {
 

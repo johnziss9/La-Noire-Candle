@@ -1,0 +1,122 @@
+.aspects-container {
+    padding: 80px 20px;
+    width: 100%;
+    background: #f2efe6;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.aspects-item-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.aspects-item-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0b0b0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.aspects-item-title {
+    margin-bottom: 15px;
+    color: #0b0b0a;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+}
+
+.aspects-item-text {
+    color: #0b0b0a;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .aspects-container {
+        padding: 70px 15px;
+        gap: 30px;
+    }
+    
+    .aspects-item-content {
+        max-width: 280px;
+    }
+    
+    .aspects-item-icon {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .aspects-item-title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .aspects-container {
+        padding: 60px 15px;
+        gap: 40px;
+    }
+    
+    .aspects-item-content {
+        max-width: 220px;
+    }
+    
+    .aspects-item-icon {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .aspects-item-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .aspects-container {
+        padding: 50px 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .aspects-item-content {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .aspects-container {
+        padding: 40px 10px;
+    }
+    
+    .aspects-item-content {
+        max-width: 260px;
+    }
+    
+    .aspects-item-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .aspects-item-title {
+        font-size: 18px;
+    }
+    
+    .aspects-item-text {
+        font-size: 14px;
+    }
+}
