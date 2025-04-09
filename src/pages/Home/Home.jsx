@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <div className='home-container'>
-      <div className="home-header">
+      <div className="header">
         <LogoHeader />
         <Navbar />
       </div>
