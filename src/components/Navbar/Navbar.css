@@ -98,62 +98,77 @@
     transform: rotate(0);
 }
 
-/* Contact Modal Styling */
-.modal-header {
-    border-bottom: 1px solid #d4c8be;
-    background-color: #0b0b0a;
-    color: #ffffff;
+.contact-modal .modal-dialog {
+    max-width: 550px;
+}
+
+.modal-intro {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #0b0b0a;
 }
 
 .modal-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 28px;
+    letter-spacing: 1px;
+    font-size: 32px;
     font-weight: 500;
+}
+
+.modal-header {
+    border-bottom: 1px solid #0b0b0a;
+    background-color: #0b0b0a;
+    color: #ffffff;
 }
 
 .modal-body {
     background-color: #f2efe6;
-    /* Soft cream from your palette */
-    padding: 25px;
+    padding: 30px;
 }
 
 .contact-form-control-group {
-    margin: 15px 0;
+    margin: 25px 0; /* Increased spacing between form fields */
 }
 
 .form-label {
     font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
     font-weight: 500;
     color: #0b0b0a;
+    margin-bottom: 10px;
 }
 
 .form-control {
-    border: 1px solid #d4c8be;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    border: 1px solid #0b0b0a;
     border-radius: 0;
-    padding: 10px 15px;
+    padding: 12px 15px;
     background-color: rgba(255, 255, 255, 0.9);
     transition: all 0.3s ease;
 }
 
 .form-control:focus {
     box-shadow: none;
-    border-color: #8C2641;
-    /* Burgundy from your examples */
+    border-color: #0b0b0a;
 }
 
 .modal-button-group {
     display: flex;
     justify-content: flex-end;
+    margin-top: 30px; /* Added more space above buttons */
 }
 
 .modal-button {
-    margin: 10px 5px;
-    border-radius: 0;
-    padding: 8px 20px;
-    text-transform: uppercase;
     font-family: 'Lato', sans-serif;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 10px 25px;
+    border-radius: 0;
+    margin: 0 0 0 15px; /* Adjusted spacing between buttons */
 }
 
 .btn-secondary {
@@ -169,25 +184,43 @@
 }
 
 .btn-dark {
-    background-color: #8C2641;
-    /* Burgundy */
-    border: 1px solid #8C2641;
+    background-color: #0b0b0a;
+    border: 1px solid #0b0b0a;
 }
 
 .btn-dark:hover {
-    background-color: #702033;
-    /* Darker burgundy */
-    border: 1px solid #702033;
+    background-color: #1c1c1a; /* Slightly lighter black on hover */
+    border: 1px solid #1c1c1a;
 }
 
-/* Close button styling */
-.btn-close {
-    color: #ffffff;
-    opacity: 0.8;
+/* Success message styling */
+.submission-success {
+    text-align: center;
+    padding: 30px 10px;
 }
 
-.btn-close:hover {
-    opacity: 1;
+.submission-success h3 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #0b0b0a;
+}
+
+.submission-success p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #0b0b0a;
+}
+
+.modal-button-centered {
+    margin: 0 auto;
+    display: block;
+    min-width: 150px;
 }
 
 /* Removing arrow buttons for number input */
