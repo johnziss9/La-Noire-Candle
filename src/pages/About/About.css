@@ -1,0 +1,212 @@
+/* About.css */
+.about-container {
+    width: 100%;
+    background-color: #f2efe6;
+    color: #0b0b0a;
+    padding-bottom: 20px; /* Matched with candle-care */
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+.about-header {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.about-header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 40px; /* Matched with candle-care */
+    font-weight: 500;
+    /* No bottom margin as per candle-care */
+}
+
+.about-section {
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.about-text-content {
+    flex: 1;
+}
+
+.about-text-content h2 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 1.6; /* Matched with candle-care */
+    margin-bottom: 20px;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 550px; /* Matched with candle-care */
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-values {
+    background-color: #0b0b0a;
+    color: #fff;
+    padding: 40px; /* Matched with safety-section */
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+.about-values h2 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Matched with safety-list */
+    padding: 0 20px;
+}
+
+.value-item h3 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #d4c8be;
+}
+
+.value-item p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 1.5; /* Matched with safety-list */
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .about-header {
+        padding: 50px 0;
+    }
+    
+    .about-header h1 {
+        font-size: 36px;
+    }
+    
+    .about-text-content h2, .about-values h2 {
+        font-size: 28px;
+    }
+    
+    .value-item h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-header {
+        padding: 40px 0;
+    }
+    
+    .about-section {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 60px; /* Kept same as desktop for mid-size */
+    }
+    
+    .about-section.reverse {
+        flex-direction: column;
+    }
+    
+    .about-image {
+        max-width: 100%;
+    }
+    
+    .about-header h1 {
+        font-size: 32px;
+    }
+    
+    .about-text-content h2, .about-values h2 {
+        font-size: 26px;
+    }
+    
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-container {
+        padding-bottom: 20px; /* Maintained */
+    }
+    
+    .about-content {
+        padding: 0 15px;
+    }
+    
+    .about-header {
+        padding: 30px 0;
+    }
+    
+    .about-header h1 {
+        font-size: 30px; /* Matched with candle-care */
+    }
+    
+    .about-text-content h2, .about-values h2 {
+        font-size: 24px;
+    }
+    
+    .about-text p, .value-item p {
+        font-size: 15px;
+    }
+    
+    .about-values {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-header {
+        padding: 25px 0;
+    }
+    
+    .about-header h1 {
+        font-size: 28px; /* Matched with candle-care */
+    }
+    
+    .about-text-content h2, .about-values h2 {
+        font-size: 22px;
+    }
+    
+    .about-text p, .value-item p {
+        font-size: 14px;
+    }
+    
+    .about-section {
+        margin-bottom: 30px; /* Matched with candle-care */
+    }
+}
