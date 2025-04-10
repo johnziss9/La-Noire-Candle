@@ -51,10 +51,19 @@ function Navbar() {
                             <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/CandleCare">Candle Care</Link>
+                            <Link className="nav-link" to="/products/candles">Candles</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/About">About Us</Link>
+                            <Link className="nav-link" to="/products/diffusers">Diffusers</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/products/air-fresheners">Air Fresheners</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/candle-care">Candle Care</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about">About Us</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" onClick={handleShow}>Contact Us</Link>
