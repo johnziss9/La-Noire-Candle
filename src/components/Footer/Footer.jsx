@@ -21,9 +21,9 @@ function Footer() {
                         <div className='footer-links-title'>Quick Links</div>
                         <div className='footer-links'>
                             <Link to="/about" className='footer-link'>About Us</Link>
-                            <Link to="/candles" className='footer-link'>Candles</Link>
-                            <Link to="/defusers" className='footer-link'>Defusers</Link>
-                            <Link to="/airfresheners" className='footer-link'>Air Fresheners</Link>
+                            <Link to="/products/candles" className='footer-link'>Candles</Link>
+                            <Link to="/products/diffsers" className='footer-link'>Defusers</Link>
+                            <Link to="/products/airfresheners" className='footer-link'>Air Fresheners</Link>
                             <Link to="/about" className='footer-link'>Candle Care</Link>
                         </div>
                     </div>
