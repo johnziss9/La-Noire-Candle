@@ -24,7 +24,7 @@ function Footer() {
                             <Link to="/products/candles" className='footer-link'>Candles</Link>
                             <Link to="/products/diffsers" className='footer-link'>Defusers</Link>
                             <Link to="/products/airfresheners" className='footer-link'>Air Fresheners</Link>
-                            <Link to="/about" className='footer-link'>Candle Care</Link>
+                            <Link to="/candle-care" className='footer-link'>Candle Care</Link>
                         </div>
                     </div>
                     

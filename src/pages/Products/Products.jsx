@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import './Products.css';
 import '../../styles.css';
@@ -8,10 +8,6 @@ import Footer from '../../components/Footer/Footer';
 
 function Products() {
     const { category } = useParams();
-
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [category]);
 
     const productData = {
         'candles': [
